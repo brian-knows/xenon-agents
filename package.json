@@ -1,0 +1,22 @@
+{
+  "name": "@brian-ai/xenon",
+  "module": "src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/figlet": "^1.7.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^1.0.7",
+    "@supabase/supabase-js": "^2.47.0",
+    "ai": "^4.0.12",
+    "figlet": "^1.8.0",
+    "hono": "^4.6.12",
+    "openai": "^4.76.1",
+    "viem": "^2.21.54",
+    "zod": "^3.23.8"
+  }
+}
