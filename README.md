@@ -215,6 +215,17 @@ The `documents` table has a `match_documents` function that is used to retrieve 
 
 Please make sure to set the `query_embedding` column vector size to **1536** for OpenAI embeddings' size.
 
+## ⚙️ HTTP APIs
+
+Xenon exposes **by default** some APIs that can be used to build your own UI on top of it. 
+
+> Please note that Xenon default UI is **coming soon**.
+
+These are the routes exposed by the system:
+- `/thoughts`: this route is used to retrieve the thoughts of the agents;
+- `/thoughts/:agent`: this route is used to retrieve the thoughts of a specific agent (eg. `/thoughts/observer`);
+- `/wallet`: this route is used to retrieve the wallet information. It returns the wallet balances, the wallet portfolio, the wallet transactions, the wallet positions and the wallet chart via Zerion.
+
 ## 🧑🏻‍💻 Development Guide
 
 **Xenon** is a complex system, and requires a little bit of setup to be able to run it. Let's see all the different steps.
