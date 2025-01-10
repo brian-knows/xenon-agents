@@ -280,6 +280,21 @@ bun src/index.ts
 
 You will see the logs of the system in the console.
 
+## 🤝🏻 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request. We're looking for a lot of improvements, optimizations, new features and new use cases. Feel also free to fork this project and create your own version of it.
+
+### 💡 Ideas
+
+If you feel like contributing to the project, here are some ideas that we would like to explore:
+
+- [ ] Using TEE for private key management (eg. using [Lit Protocol](https://litprotocol.com/)) and transactions signing;
+- [ ] Using TEE for running the system in a secure and private way (eg. using [Phala Network](https://phala.network/));
+- [ ] Using [XMTP](https://xmtp.org) for the communication between agents;
+- [ ] Adding [Twitter](https://x.com) integration for the observer agent for posting a smaller version of the report to Twitter;
+- [ ] Adding [Telegram](https://telegram.org) integration for the observer agent for posting a smaller version of the report as a Telegram message;
+- [ ] Adding [Farcaster](https://farcaster.xyz) integration for the observer agent for posting a smaller version of the report as a Farcaster cast.
+
 ## 🛡️ License
 
 This project is licensed under the terms of the MIT license. See LICENSE for more details.
