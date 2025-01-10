@@ -271,6 +271,8 @@ ZERION_API_KEY=""
 - The `ZERION_API_KEY` is the API key for the Zerion API. You can get it from [Zerion](https://app.zerion.io/);
 - The `BRIAN_API_KEY` is the URL for the Brian API. You can get it from [Brian App](https://brianknows.org/app).
 
+You can change the chain by adding a `CHAIN_NAME` and `CHAIN_ID` environment variables. The `CHAIN_NAME` is used by Portals and Zerion, so if you change it make sure that it's supported by both.
+
 ### 3. Running the system
 
 Run the system using `bun`:
