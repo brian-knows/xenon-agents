@@ -293,6 +293,14 @@ bun src/index.ts
 
 You will see the logs of the system in the console.
 
+### Changing the agents' behaviors and tools
+
+You can change the agents' behaviors by editing the `src/system-prompts` folder. Each agent has its own file.
+
+You can update the system prompts so that the agents behave differently: an example could be changing the system to be more degen-like, or even more conservative.
+
+Changing the behavior may include updating the existing tools or create new ones: you can do so in the `toolkit.ts` file of each agent, most likely you need to intervene only on the observer agent toolkit to retrieve different information, like trending tokens, etc.
+
 ## 🤝🏻 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. We're looking for a lot of improvements, optimizations, new features and new use cases. Feel also free to fork this project and create your own version of it.
